@@ -1,4 +1,3 @@
-# pwn.college.Shashvat
 # Intro to Commands
 The aim of the challenge is to invoke the very first command
 
