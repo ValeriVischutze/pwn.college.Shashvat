@@ -3,6 +3,7 @@ The aim of the challenge is learn about how to access the history of the previou
 
 ## My solve:
 **Flag:** `pwn.college{oJ2oHFsopjISV-VbCtAvGwZ9NRU.0lNzEzNxwiN3AzNzEzW}`
+
 Clicking on the up and down arrow keys, we can access the commands that we issued previously,thereby allowing us to access the history of commands.
 In this challenge, the flag was already injected between the history of our previous commands and was thereby obtained by browsing through the old commands.
 
