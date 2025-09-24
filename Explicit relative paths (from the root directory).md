@@ -1,4 +1,4 @@
-# Explicit relative paths
+# Explicit relative paths (from the root directory)
 The aim of the challenge is to execute the target code by using an explicit relative pathway (from the root directory)
 
 ## My solve:
