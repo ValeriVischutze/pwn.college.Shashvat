@@ -1,4 +1,4 @@
-# Implicit relative paths
+# Implicit relative paths (from the root directory)
 The challenge is to invoke the command by taking a relative pathway.
 
 ## My solve:
