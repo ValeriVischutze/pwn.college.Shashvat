@@ -14,4 +14,4 @@ Familiarization to the `grep` command and its significance as a highlighting too
 
 
 ## References 
-Reference video from pwn.college
+Reference material from pwn.college
