@@ -11,4 +11,4 @@ We used the command `cat /usr/share/sgml/flag` to obtain the flag.
 Obtaining the flag through an absolute path without having to move to a different directory.
 
 ## References 
-Reference video from pwn.college
+Reference material from pwn.college
