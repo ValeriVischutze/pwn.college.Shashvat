@@ -11,4 +11,4 @@ We then invoke `/challenge/check` as a verification for the successful execution
 How to delete files from a directory.
 
 ## References 
-Reference video from pwn.college
+Reference material from pwn.college
