@@ -1,0 +1,14 @@
+# More catting practice
+The aim of this challenge is to obtain the flag by using a `cat` command (through an absolute path) in a given target directory.
+
+## My solve:
+**Flag:** `pwn.college{AiCWalx1BFSj1aG6JOUpayAdp7O.QXwITO0wiN3AzNzEzW}`
+
+As again, we used the `cat` command to obtain the flag through an absolute path. The challenge also restricted us from using the `cd` command to position ourselves into the given target directory and then use the `cat` command.
+We used the command `cat /usr/share/sgml/flag` to obtain the flag.
+
+## What I learned:
+Obtaining the flag through an absolute path without having to move to a different directory.
+
+## References 
+Reference video from pwn.college
