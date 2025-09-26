@@ -11,4 +11,4 @@ In this challenge, we searched the challenge directory using `ls /challenge`, be
 Function and application of the listing function through both absolute and relative paths.
 
 ## References 
-Reference video from pwn.college
+Reference material from pwn.college
