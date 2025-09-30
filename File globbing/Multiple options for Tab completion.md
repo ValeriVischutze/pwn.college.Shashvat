@@ -2,14 +2,19 @@
 This challenge has a /challenge/files directory with a bunch of files starting with pwncollege. Tab-complete from /challenge/files/p or so, and make your way to the flag!
 
 ## My solve
-**Flag:** `
+**Flag:** `NOT-WORKING`
 
 ```
-
+/challenge/files/pwn<f1><TAB><TAB>
+pwn                    pwncollege-family      pwncollege-flyswatter
+pwn-college            pwncollege-flag        pwncollege-hacking
+pwn-the-planet         pwncollege-flamingo
+cat /challenge/files/pwncollege-flag
+`NOT-DISPLAYING`
 ```
 
 ## What I learned
-explain what you learned
+Using f1 key and then pressing tab key 2nd time prints all the files under that particular directory.
 
 ## References 
-Add any references or videos you used while solving the challenge.
+Reference material from pwn.college
