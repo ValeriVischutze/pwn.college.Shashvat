@@ -2,16 +2,22 @@
 The aim of the challenge is to familiarize with the `env` command.
 
 ## My solve
-**Flag:** `
+**Flag:** `pwn.college{cPrBSNNW2ZzT2WnsWj2R7LbldpE.QX4UTN0wiN3AzNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible.. Use triple ticks for bash.
-```bash
-example triple ticks for bash
-pwn.college{helloworld}
+```
+hacker@variables~printing-exported-variables:~$ env
+SHELL=/run/dojo/bin/bash
+.
+.
+.
+FLAG=pwn.college{cPrBSNNW2ZzT2WnsWj2R7LbldpE.QX4UTN0wiN3AzNzEzW}
+.
+.
+.
 ```
 
 ## What I learned
-explain what you learned
+env command prints all the exported variables set in the shell.
 
 ## References 
-Add any references or videos you used while solving the challenge.
+Reference material from pwn.college
