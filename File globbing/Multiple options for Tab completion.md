@@ -2,7 +2,7 @@
 This challenge has a /challenge/files directory with a bunch of files starting with pwncollege. Tab-complete from /challenge/files/p or so, and make your way to the flag!
 
 ## My solve
-**Flag:** `NOT-WORKING`
+**Flag:** `
 
 ```
 /challenge/files/pwn<f1><TAB><TAB>
@@ -10,7 +10,7 @@ pwn                    pwncollege-family      pwncollege-flyswatter
 pwn-college            pwncollege-flag        pwncollege-hacking
 pwn-the-planet         pwncollege-flamingo
 cat /challenge/files/pwncollege-flag
-`NOT-DISPLAYING`
+
 ```
 
 ## What I learned
