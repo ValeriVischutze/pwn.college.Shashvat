@@ -93,7 +93,7 @@ I can now use piping to redirect outputs of a script to another command.
 
 
 
-Executable shell scripts
+# Executable shell scripts
 
 echo "/challenge/solve" > flag.sh
 chmod  +x flag.sh
