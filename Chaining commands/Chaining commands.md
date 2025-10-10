@@ -89,3 +89,25 @@ pwn.college{QceAAogf6SYPWdbGrBaJ8F8O6Xo.QX4ETO0wiM5AzNzEzW}
 
 ## What I learnt:
 I can now use piping to redirect outputs of a script to another command.
+
+
+
+
+Executable shell scripts
+
+echo "/challenge/solve" > flag.sh
+chmod  +x flag.sh
+./flag.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
