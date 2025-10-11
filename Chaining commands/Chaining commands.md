@@ -138,6 +138,24 @@ I can now run shell scripts as executables without the need of bash.
 
 
 
+# Understanding Shebangs
+For this challenge, create a script at /home/hacker/solve.sh that has a proper shebang and outputs "hack the planet". Remember to make it executable, then run /challenge/run to verify your script works correctly!
+
+## My solve:
+**Flag:** `
+
+```
+cat > /home/hacker/solve.sh <<'EOF'
+echo "hack the planet"
+EOF
+chmod a+x /home/hacker/solve.sh
+/challenge/run
+```
+
+## What I learnt:
+if a file starts with #!, the very first characters,bash treats the rest of that first line as the interpreter path and runs interpreter `path/to/script`.
+
+
 
 # Scripting with Arguments
 For this challenge, you need to write a script at /home/hacker/solve.sh that:
