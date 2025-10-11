@@ -104,7 +104,7 @@ I can now run a shell script with `bash`
 In this level, we will practice piping (|) from your script to another program. Like before, you need to create a script that calls the /challenge/pwn command followed by the /challenge/college command, and pipe the output of the script into a single invocation of the /challenge/solve command!
 Solve
 
-**Flag:** pwn.college{QceAAogf6SYPWdbGrBaJ8F8O6Xo.QX4ETO0wiM5AzNzEzW}
+**Flag:** `pwn.college{QceAAogf6SYPWdbGrBaJ8F8O6Xo.QX4ETO0wiM5AzNzEzW}`
 
 ```
 echo "/challenge/pwn; /challenge/college" > x.sh
@@ -142,7 +142,7 @@ I can now run shell scripts as executables without the need of bash.
 For this challenge, create a script at /home/hacker/solve.sh that has a proper shebang and outputs "hack the planet". Remember to make it executable, then run /challenge/run to verify your script works correctly!
 
 ## My solve:
-**Flag:** `
+**Flag:** `pwn.college{Idr2TYWG7kbO6hjJ-k0ArQMNHUl.QX2cDM1wiM5AzNzEzW}`
 
 ```
 cat > /home/hacker/solve.sh <<'EOF'
@@ -150,6 +150,7 @@ echo "hack the planet"
 EOF
 chmod a+x /home/hacker/solve.sh
 /challenge/run
+pwn.college{Idr2TYWG7kbO6hjJ-k0ArQMNHUl.QX2cDM1wiM5AzNzEzW}
 ```
 
 ## What I learnt:
