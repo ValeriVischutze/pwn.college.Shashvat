@@ -78,6 +78,26 @@ pwn.college{80hosJtNrC3Fzho_jVjoHNC7kUT.QXxcDO0wiM5AzNzEzW}
 i can now develop shell scripts.
 
 
+# Your first shell script
+run /challenge/pwn and then /challenge/college, but this time in a shell script called x.sh, then run it with bash!
+
+## My solve:
+**Flag:** `pwn.college{gj5egwQa6yX6bzbIgfplblredov.QXxcDO0wiN3AzNzEzW}`
+
+```
+cat > x.sh <<'EOF'
+/challenge/pwn
+/challenge/college
+EOF
+bash x.sh
+Here's your flag:
+pwn.college{gj5egwQa6yX6bzbIgfplblredov.QXxcDO0wiN3AzNzEzW
+```
+
+## What I learnt:
+I can now run a shell script with `bash`
+
+
 
 # Redirecting script output
 
